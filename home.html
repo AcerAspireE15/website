@@ -60,7 +60,7 @@ header{
     color:white;
     font-family:cursive;
     font-size: 17px;
-    border:1px solid;
+    border:2px solid;
     border-radius:2%;
     height:50px;
     width:100%;
@@ -68,12 +68,12 @@ header{
 	text-shadow: 2px 2px 4px white;
 }
 
-.Academics,.Certificates,.Resume{
+.Academics,.Certificates,.Resume,.wel{
     background-color: black;
     color:white;
     font-family: cursive;
     font-size: 17px;
-    border:2px solid white;
+    border:2px solid;
     border-radius:2%;
     height:50px;
     width:100%;
@@ -97,25 +97,54 @@ button{
 
 button1{
     background-color: white;
-    font-family:monospace;
     height: 50px;
     width: 100%;
-    border-radius: 2%;
-    color:black;
+    color: black;
 }
 
 img{
     border-radius: 50%;
     border:2px solid black;
+    font-family: monospace;
+    font-size: 100px;
 }
-    
+.rectangle{
+    height: 580px;
+    width: 1347px;
+    background-color: black;
+    box-shadow: 3px 3px 3px white;
+    border:2px solid;
+	border-color: white;
+    font-family: monospace;
+    font-size: 100px;  
+  
+}
+button2{
+    font-family: monospace;
+    font-size: 30px;
+    background-color: black;
+    padding: 20px 565px;
+    width:100%;
+    height:50px;
+    color: white;
+}
         
 </style>        
 </head>
 <body>
-    <h1><center><b><i><header>My Portfolio</header></i></b></center></h1>
+    <div class="rectangle"><img src="23.jpg" height="550px" width="1100px"></div>
+    <center><a href="#wel"><button2>Know More-->></button2></a></center>
     <br>
-    <center><b><img src="21.jpg" width="200px" height="200px"></b></center>
+    <br>
+    <br>
+        <h1><center><b><i><div class="wel" id="wel"><header>Welcome to My Portfolio</header></div></i></b></center></h1>
+    <br>
+    <br>
+    <h1><center><b><i>Let Me Introduce Myself</i></b></center></h1>
+    <br>
+    <br>
+    <center><b><img src="21.jpg" width="240px" height="240px"></b></center>
+    <br>
     <br>
     <div class="topnav">
         <a href="#AboutMe"><button>About Me</button></a>
@@ -128,16 +157,20 @@ img{
     </div>
     <br>
     <br>
+    <br>
     <div class="AboutMe" id="AboutMe">
         <center><h2><img src="13.jpg" width="40px" height="35px" border:2px solid black>About Me</h2></center>
     </div>
+    <br>
     <p><i><b><h3 font-style="cursive"><center>Hi,</b> I'm Mukul Gupta  Electronics and Communication Student at Jaypee University of Information Technology at Waknaghat, Distt. Solan (H.P),India.
-        This is my portfolio website which contains all my skills,academics,projects,certification and contact details.I am learning web designing and this website is made by me for learning purpose.</center>
+        <P>This is my portfolio website which contains all my skills,academics,projects,certification and contact details.I am learning web designing and this website is made by me for learning purpose.</P></center>
         </h3></i></p>
-    
+    <br>
+    <br>
     <div class="Academics" id="Academics">
        <center><h2><img src="16.jpg" width="45px" height="45px">Academics</h2></center>
     </div>
+    <br>
     <br>
     <h2><center><b><u><i>Matric</i></u></b></center></h2>
     <h3><center><b><i>School:</i></b><i>SVN Public School Nahan</i></center></h3>
@@ -151,10 +184,11 @@ img{
     <h3><center><b><i>University:</i></b><i>Jaypee University of Information Technology Waknaghat</i></center></h3>
     <h3><center><b><i>CGPA:</i></b><i>7.7</i></center></h3>
     <br>
-    
+    <br>
     <div class="Skills" id="Skills">
         <center><h2><img src="18.jpg" width="40px" height="38px">My Skills</h2></center>
      </div>
+    <br>
     <br>
     <h3><center><b><i>C</i></b></center></h3>
     <hr noshade>
@@ -168,25 +202,28 @@ img{
     <hr noshade>
     <h3><center><b><i>Arduino</i></b></center></h3>
     <br>
+    <br>
     
     <div class="Certificates" id="Certificates">
        <center><h2><img src="19.jpg" width="45px" height="38px">Certification</h2></center>
     </div>
     <br>
-    <h3><center><a href="2.jpg"><img src="12.jpg" height="30px" width="30px"><button1><b>The Complete Python Masterclass:Learn Python From Scratch</b></button1></a> </center></h3>
-    <hr noshade>
-    <h3><center><a href="3.jpg"><img src="12.jpg" height="30px" width="30px"><button1><b>Arduino Step by Step:Your complete guide</b></button1></a></center></h3>
-     <hr noshade>
-    <h3><center><a href="4.jpg"><img src="12.jpg" height="30px" width="30px"><button1><b>HTML for Beginners</b></button1></a></center></h3>
-    <hr noshade>
-    <h3><center><a href="5.pdf"><img src="12.jpg" height="30px" width="30px"><button1><b>Python:Getting Started</b></button1></a></center></h3>
-    <hr noshade>
-    <h3><center><a href="6.jpg"><img src="12.jpg" height="30px" width="30px"><button1><b>How to Create a Website using WordPress</b></button1></a></center></h3>
     <br>
-    
+    <h3><center><a href="2.jpg"><img src="12.jpg" height="30px" width="30px"><button1><b><i>The Complete Python Masterclass:Learn Python From Scratch</i></b></button1></a> </center></h3>
+    <hr noshade>
+    <h3><center><a href="3.jpg"><img src="12.jpg" height="30px" width="30px"><button1><b><i>Arduino Step by Step:Your complete guide</i></b></button1></a></center></h3>
+     <hr noshade>
+    <h3><center><a href="4.jpg"><img src="12.jpg" height="30px" width="30px"><button1><b><i>HTML for Beginners</i></b></button1></a></center></h3>
+    <hr noshade>
+    <h3><center><a href="5.pdf"><img src="12.jpg" height="30px" width="30px"><button1><b><i>Python:Getting Started</i></b></button1></a></center></h3>
+    <hr noshade>
+    <h3><center><a href="6.jpg"><img src="12.jpg" height="30px" width="30px"><button1><b><i>How to Create a Website using WordPress</i></b></button1></a></center></h3>
+    <br>
+    <br>
      <div class="Projects" id="Projects">
        <center><h2><img src="15.jpg" width="35px" height="35px">Projects</h2></center>
     </div>
+    <br>
     <br>
     <h3><center><b><i>Calculator using Python</i></b></center></h3>
     <hr noshade>
@@ -198,26 +235,29 @@ img{
     <hr noshade>
     <h3><center><b><i>My Portfolio Website</i></b></center></h3>
     <br>
-   
+    <br>
+    
     <div class="Resume" id="Resume">
        <center><h2><img src="17.jpg" width="35px" height="35px">Resume</h2></center>
     </div>
     <br>
+    <br>
     <h3><center><a href="7.docx"><img src="12.jpg" height="30px" width="30px"><button1><b>Download Resume</b></button1></a></center></h3>
     <br>
-   
+    <br>
     <div class="Contact" id="Contact">
         <center><h2><img src="20.jpg" width="40px" height="40px">Contact Details</h2></center>
     </div>
+    <br>
     <br>
     <h3><center><b><i><img src="8.jpg" height="40px" width="40px">  9882588818</i></b></center></h3>
     <hr noshade>
     <h3><center><b><i><img src="9.jpg" height="40px" width="40px">  anchalmukul@gmail.com</i></b></center></h3>
     <hr noshade>
-    <h3><center><b><i><img src="10.jpg" height="40px" width="40px"><a href="http://www.linkedin.com/in/mukul-gupta-5a01a5144"><img src="12.jpg" height="30px" width="30px">     <button1>LINKEDIN ACCOUNT</button1></a></i></b></center></h3>
+    <h3><center><b><i><img src="10.jpg" height="40px" width="40px"><a href="http://www.linkedin.com/in/mukul-gupta-5a01a5144"><img src="12.jpg" height="30px" width="30px">     <button1> LINKEDIN ACCOUNT</button1></a></i></b></center></h3>
     <hr noshade>
-    <h3><center><b><i><img src="11.jpg" height="40px" width="40px"><a href="http://www.instagram.com/mukul2707"><img src="12.jpg" height="30px" width="30px">                   <button1>INSTAGRAM ACCOUNT</button1></a></center></h3>
+    <h3><center><b><i><img src="11.jpg" height="40px" width="40px"><a href="http://www.instagram.com/mukul2707"><img src="12.jpg" height="30px" width="30px">                   <button1> INSTAGRAM ACCOUNT</button1></a></i></b></center></h3>
     <br>
-    
+    <br>
     </body>    
 </html>
